@@ -1,0 +1,47 @@
+Programmation Générale
+
+1. Ecrire une regexp qui détecterait les nombres hexadécimaux dans un text
+‘0x0f4’, ‘0acdadecf822eeff32aca5830e438cb54aa722e3’, ‘8BADF00D’ devraient tous être détectés
+
+>
+
+2. Ci-dessous le pseudo-code d'une fonction récursive
+-  f(0) = 1;
+-  f(1) = 3;
+-  f(n)= 3 * f(n-1) - f(n-2);
+Implémentez la fonction f sans qu'elle soit récursive
+
+>
+
+Ruby on Rails
+
+1. Quelles seraient les premières étapes à prendre pour refacto un projet où les controllers sont trop longs?
+
+>
+
+2. Qu'est-ce que le N+1 et comment l'éviter en Rails?
+
+>
+
+3. D'un point de vue pratique, quel intérêt à utiliser des constantes dans une app Rails? Quelles implémentations avez-vous vu/mis en place?
+
+>
+
+4. Décrivez une fonction de Ruby trop peu utilisée à votre goût
+
+>
+
+Architecture
+
+1. Une entreprise veut créer un système de notification pour son site.
+Chaque type de notification a besoin de 'variables' différentes:
+(x a aimé le projet de y, le projet x vient d'être mis à jour, etc.)
+La base de données est en PostgreSQL.
+Proposez une structure de données et une implémentation en back-end qui permettrait d'être assez flexible
+tout en réduisant la possibilité de bugs et de structures non conformes
+
+>
+
+2. Décrivez les objets et la structure de donnée que vous utiliseriez pour implémenter un jeu de Touché-Coulé
+
+>
