@@ -1,0 +1,13 @@
+{
+  "name": "testgopher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Votre nom ou pseudo <Votre@email.comEliPamp>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
